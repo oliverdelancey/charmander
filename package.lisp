@@ -1,5 +1,5 @@
 ;;;;
-;;;; CHARMANDER.LISP
+;;;; PACKAGE.LISP
 ;;;;
 ;;;; Oliver Delancey
 ;;;;
@@ -7,6 +7,9 @@
 ;;;; See LICENSE for usage permissions, limitations, and conditions.
 ;;;;
 
+
+(defpackage #:charmander
+  (:use :cl)
+  (:export))
+
 (in-package #:charmander)
-
-

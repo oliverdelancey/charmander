@@ -1,0 +1,5 @@
+PROJECT CHARMANDER PLANS & NOTES
+
+# TODO
+
+Implement entire ANSI escape code library
