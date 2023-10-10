@@ -2,4 +2,9 @@ PROJECT CHARMANDER PLANS & NOTES
 
 # TODO
 
-Implement entire ANSI escape code library
+[x] Implement entire ANSI escape code library
+[ ] Make functions more lispy. Keyword symbols instead of arbitrary numbers, etc.
+	A simple keyword-to-number system:
+	(ecase myvar
+	  (:kw0 0)
+	  (:kw1 1))

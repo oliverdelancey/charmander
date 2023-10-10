@@ -12,7 +12,8 @@
 		:version "0.0.0"
 		:author "Oliver Delancey"
 		:license "MIT"
-		;:depends-on ()
+		:depends-on ("cl-interpol")
 		:serial t
 		:components ((:file "package")
-			     (:file "charmander")))
+					 (:file "utils")
+			     	 (:file "charmander")))
