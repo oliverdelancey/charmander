@@ -1,0 +1,5 @@
+(ql:quickload :staple)
+(load "charmander.asd")
+(ql:quickload :charmander)
+(staple:generate :charmander)
+(exit)
