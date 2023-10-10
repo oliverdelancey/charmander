@@ -1,0 +1,148 @@
+<!DOCTYPE html> <html lang="EN"> <head> <meta charset="utf-8"> <title>Charmander</title> <style>html body{margin:0 auto 0 auto;padding:20px;max-width:1024px;font-family:sans-serif;font-size:14pt;overflow-y:scroll;}html body a{text-decoration:none;}html body a[href]{color:#0055AA;}html body a[href]:hover{color:#0088EE;}html body pre{background:#FAFAFA;border:1px solid #DDDDDD;padding:0.75em;overflow-x:auto;}html body pre >code a[href]{color:#223388;}article.project h1{font-size:1.7em;}article.project h1,article.project h2,article.project h3,article.project h4,article.project h5,article.project h6{margin:0.2em 0 0.1em 0;text-indent:1em;}article.project >header{text-align:center;}article.project >header img.logo{display:block;margin:auto;max-height:170px;}article.project >header h1{display:inline-block;text-indent:0;font-size:2.5em;}article.project >header .version{vertical-align:bottom;}article.project >header .languages{margin-top:-0.5em;text-transform:capitalize;}article.project >header .description{margin:0;}article.project >header .pages{margin-top:0.5em;font-size:1.2em;text-transform:capitalize;}article.project >header .pages a{display:inline-block;padding:0 0.2em;}article.project >section{margin:1em 0 1em 0;}article.project #index >ul{list-style:none;margin:0;padding:0;}article.project .row label{display:inline-block;min-width:8em;}article.project #system .row{display:flex;}article.project #system #dependencies{display:inline;margin:0;padding:0;}article.project #system #dependencies li{display:inline;padding:0 0.2em;}article.project #system #author label{vertical-align:top;}article.project #system #author ul{display:inline-block;margin:0;padding:0;list-style:none;}article.definition{margin:1em 0 0 0;}article.definition >header h1,article.definition >header h2,article.definition >header h3,article.definition >header h4,article.definition >header h5,article.definition >header h6{text-indent:0;display:inline-block;}article.definition >header ul{display:inline-block;list-style:none;margin:0;padding:0;}article.definition >header ul li{display:inline-block;padding:0 0.2em 0 0;}article.definition >header .visibility{display:none;}article.definition >header .visibility,article.definition >header .type{text-transform:lowercase;}article.definition >header .source-link{visibility:hidden;float:right;}article.definition >header .source-link:after{visibility:visible;content:"[SRC]";}article.definition .docstring{margin:0 0 0 1em;}article.definition .docstring pre{font-size:0.8em;white-space:pre-wrap;}.definition.package >header ul.nicknames{display:inline-block;list-style:none;margin:0;padding:0 0 0 1em;}.definition.package >header ul.nicknames li{display:inline;}.definition.package >header ul.nicknames:before{content:"(";}.definition.package >header ul.nicknames:after{content:")";}.definition.package ul.definitions{margin:0;list-style:none;padding:0 0 0 0.5em;}.definition.callable >header .name:before,.definition.type >header .name:before{content:"(";font-weight:normal;}.definition.callable >header .arguments:after,.definition.type >header .arguments:after{content:")";}.definition.callable >header .arguments .arguments:before,.definition.type >header .arguments .arguments:before{content:"(";}.definition.callable >header .arguments .argument,.definition.type >header .arguments .argument{padding:0;}.definition.callable >header .arguments .argument.lambda-list-keyword,.definition.type >header .arguments .argument.lambda-list-keyword{color:#991155;}.definition li>mark{background:none;border-left:0.3em solid #0088EE;padding-left:0.3em;display:block;}</style> </head> <body> <article class="project"> <header>   <h1>charmander</h1>   <span class="version">0.0.0</span>    <p class="description">Terminal control library</p>   </header> <section id="documentation"> </section>   <section id="system"> <h2>System Information</h2>  <div class="row"> <label for="version">Version:</label> <a id="version">0.0.0</a> </div>   <div class="row"> <label for="dependencies">Dependencies:</label> <ul id="dependencies"><li><a class="external">cl-interpol</a></li></ul> </div>   <div class="row" id="author"> <label for="author">Author:</label> <a>Oliver Delancey</a> </div>   <div class="row"> <label for="license">License:</label> <a id="license" href="file:///home/ocd/charmander/LICENSE">MIT</a> </div>     </section>    <section id="index"> <h2>Definition Index</h2> <ul> <li> <article class="definition package" id="PACKAGE CHARMANDER"> <header> <h3> <a href="#PACKAGE%20CHARMANDER">CHARMANDER</a> </h3> <ul class="nicknames"></ul>  </header> <div class="docstring"><i>No documentation provided.</i></div> <ul class="definitions"> <li> <article class="definition function callable" id="FUNCTION CHARMANDER:BELL"> <header> <span class="visibility">EXTERNAL</span> <span class="type">FUNCTION</span> <h4 class="name"> <a href="#FUNCTION%20CHARMANDER%3ABELL">BELL</a> </h4> <ul class="qualifiers"></ul> <ul class="arguments"></ul>  <a class="source-link" href="file:///home/ocd/charmander/charmander.lisp#17:0">Source</a>  </header> <div class="docstring"><pre>Makes an audible noise</pre></div> </article> </li>  <li> <article class="definition function callable" id="FUNCTION CHARMANDER:CARRIAGE-RETURN"> <header> <span class="visibility">EXTERNAL</span> <span class="type">FUNCTION</span> <h4 class="name"> <a href="#FUNCTION%20CHARMANDER%3ACARRIAGE-RETURN">CARRIAGE-RETURN</a> </h4> <ul class="qualifiers"></ul> <ul class="arguments"></ul>  </header> <div class="docstring"><pre>Move cursor to column zero</pre></div> </article> </li>  <li> <article class="definition function callable" id="FUNCTION CHARMANDER:CURSOR-BACK"> <header> <span class="visibility">EXTERNAL</span> <span class="type">FUNCTION</span> <h4 class="name"> <a href="#FUNCTION%20CHARMANDER%3ACURSOR-BACK">CURSOR-BACK</a> </h4> <ul class="qualifiers"></ul> <ul class="arguments">  <li class="argument lambda-list-keyword">&amp;OPTIONAL</li>    <li class="argument">N</li>  </ul>  </header> <div class="docstring"><pre>Move cursor N cells back (default 1)</pre></div> </article> </li>  <li> <article class="definition function callable" id="FUNCTION CHARMANDER:CURSOR-DOWN"> <header> <span class="visibility">EXTERNAL</span> <span class="type">FUNCTION</span> <h4 class="name"> <a href="#FUNCTION%20CHARMANDER%3ACURSOR-DOWN">CURSOR-DOWN</a> </h4> <ul class="qualifiers"></ul> <ul class="arguments">  <li class="argument lambda-list-keyword">&amp;OPTIONAL</li>    <li class="argument">N</li>  </ul>  </header> <div class="docstring"><pre>Move cursor N cells down (default 1)</pre></div> </article> </li>  <li> <article class="definition function callable" id="FUNCTION CHARMANDER:CURSOR-FORWARD"> <header> <span class="visibility">EXTERNAL</span> <span class="type">FUNCTION</span> <h4 class="name"> <a href="#FUNCTION%20CHARMANDER%3ACURSOR-FORWARD">CURSOR-FORWARD</a> </h4> <ul class="qualifiers"></ul> <ul class="arguments">  <li class="argument lambda-list-keyword">&amp;OPTIONAL</li>    <li class="argument">N</li>  </ul>  </header> <div class="docstring"><pre>Move cursor N cells forward (default 1)</pre></div> </article> </li>  <li> <article class="definition function callable" id="FUNCTION CHARMANDER:CURSOR-POSITION"> <header> <span class="visibility">EXTERNAL</span> <span class="type">FUNCTION</span> <h4 class="name"> <a href="#FUNCTION%20CHARMANDER%3ACURSOR-POSITION">CURSOR-POSITION</a> </h4> <ul class="qualifiers"></ul> <ul class="arguments">  <li class="argument lambda-list-keyword">&amp;OPTIONAL</li>    <li class="argument">N</li>    <li class="argument">M</li>  </ul>  </header> <div class="docstring"><pre>Move the cursor to row N column M (default 1, 1)
+   The values are 1-based, 1,1 being top left corner.</pre></div> </article> </li>  <li> <article class="definition function callable" id="FUNCTION CHARMANDER:CURSOR-UP"> <header> <span class="visibility">EXTERNAL</span> <span class="type">FUNCTION</span> <h4 class="name"> <a href="#FUNCTION%20CHARMANDER%3ACURSOR-UP">CURSOR-UP</a> </h4> <ul class="qualifiers"></ul> <ul class="arguments">  <li class="argument lambda-list-keyword">&amp;OPTIONAL</li>    <li class="argument">N</li>  </ul>  </header> <div class="docstring"><pre>Move cursor N cells up (default 1)</pre></div> </article> </li>  <li> <article class="definition function callable" id="FUNCTION CHARMANDER:DISABLE-ALT-SCREEN-BUFFER"> <header> <span class="visibility">EXTERNAL</span> <span class="type">FUNCTION</span> <h4 class="name"> <a href="#FUNCTION%20CHARMANDER%3ADISABLE-ALT-SCREEN-BUFFER">DISABLE-ALT-SCREEN-BUFFER</a> </h4> <ul class="qualifiers"></ul> <ul class="arguments"></ul>  </header> <div class="docstring"><pre>Disable alternative screen buffer.</pre></div> </article> </li>  <li> <article class="definition function callable" id="FUNCTION CHARMANDER:ENABLE-ALT-SCREEN-BUFFER"> <header> <span class="visibility">EXTERNAL</span> <span class="type">FUNCTION</span> <h4 class="name"> <a href="#FUNCTION%20CHARMANDER%3AENABLE-ALT-SCREEN-BUFFER">ENABLE-ALT-SCREEN-BUFFER</a> </h4> <ul class="qualifiers"></ul> <ul class="arguments"></ul>  </header> <div class="docstring"><pre>Enable alternative screen buffer.</pre></div> </article> </li>  <li> <article class="definition function callable" id="FUNCTION CHARMANDER:ERASE-DISPLAY"> <header> <span class="visibility">EXTERNAL</span> <span class="type">FUNCTION</span> <h4 class="name"> <a href="#FUNCTION%20CHARMANDER%3AERASE-DISPLAY">ERASE-DISPLAY</a> </h4> <ul class="qualifiers"></ul> <ul class="arguments">  <li class="argument lambda-list-keyword">&amp;OPTIONAL</li>    <li class="argument">N</li>  </ul>  </header> <div class="docstring"><pre>Clears part of the screen.
+   N = 0 : Clear from cursor to end of screen. (default)
+   N = 1 : Clear from cursor to beginning of screen.
+   N = 2 : Clear entire screen.
+   N = 3 : Clear entire screen and delete all lines saved in the scrollback buffer.
+           This was added for xterm and is supported by other terminals.</pre></div> </article> </li>  <li> <article class="definition function callable" id="FUNCTION CHARMANDER:ERASE-LINE"> <header> <span class="visibility">EXTERNAL</span> <span class="type">FUNCTION</span> <h4 class="name"> <a href="#FUNCTION%20CHARMANDER%3AERASE-LINE">ERASE-LINE</a> </h4> <ul class="qualifiers"></ul> <ul class="arguments">  <li class="argument lambda-list-keyword">&amp;OPTIONAL</li>    <li class="argument">N</li>  </ul>  </header> <div class="docstring"><pre>Erases part of the line. Cursor position does not change.
+   N = 0 : Clear from cursor to end of line. (default)
+   N = 1 : Clear from cursor to beginning of line.
+   N = 2 : Clear entire line.</pre></div> </article> </li>  <li> <article class="definition function callable" id="FUNCTION CHARMANDER:FORM-FEED"> <header> <span class="visibility">EXTERNAL</span> <span class="type">FUNCTION</span> <h4 class="name"> <a href="#FUNCTION%20CHARMANDER%3AFORM-FEED">FORM-FEED</a> </h4> <ul class="qualifiers"></ul> <ul class="arguments"></ul>  </header> <div class="docstring"><pre>On printers, load next page.
+   In some terminal emulators, clear the screen.</pre></div> </article> </li>  <li> <article class="definition function callable" id="FUNCTION CHARMANDER:HORIZONTAL-VERTICAL-POSITION"> <header> <span class="visibility">EXTERNAL</span> <span class="type">FUNCTION</span> <h4 class="name"> <a href="#FUNCTION%20CHARMANDER%3AHORIZONTAL-VERTICAL-POSITION">HORIZONTAL-VERTICAL-POSITION</a> </h4> <ul class="qualifiers"></ul> <ul class="arguments">  <li class="argument lambda-list-keyword">&amp;OPTIONAL</li>    <li class="argument">N</li>    <li class="argument">M</li>  </ul>  </header> <div class="docstring"><pre>Same as CURSOR-POSITION, but counts as a format effector like CR or LF
+   rather than an editor function like CURSOR-UP.</pre></div> </article> </li>  <li> <article class="definition function callable" id="FUNCTION CHARMANDER:LINE-FEED"> <header> <span class="visibility">EXTERNAL</span> <span class="type">FUNCTION</span> <h4 class="name"> <a href="#FUNCTION%20CHARMANDER%3ALINE-FEED">LINE-FEED</a> </h4> <ul class="qualifiers"></ul> <ul class="arguments"></ul>  </header> <div class="docstring"><pre>Move the cursor down one row</pre></div> </article> </li>  <li> <article class="definition function callable" id="FUNCTION CHARMANDER:LINE-TABULATION"> <header> <span class="visibility">EXTERNAL</span> <span class="type">FUNCTION</span> <h4 class="name"> <a href="#FUNCTION%20CHARMANDER%3ALINE-TABULATION">LINE-TABULATION</a> </h4> <ul class="qualifiers"></ul> <ul class="arguments"></ul>  </header> <div class="docstring"><pre>Position the form at the next line tab stop</pre></div> </article> </li>  <li> <article class="definition function callable" id="FUNCTION CHARMANDER:RESTORE-CURSOR-POSITION"> <header> <span class="visibility">EXTERNAL</span> <span class="type">FUNCTION</span> <h4 class="name"> <a href="#FUNCTION%20CHARMANDER%3ARESTORE-CURSOR-POSITION">RESTORE-CURSOR-POSITION</a> </h4> <ul class="qualifiers"></ul> <ul class="arguments"></ul>  </header> <div class="docstring"><pre>Restore saved cursor position.</pre></div> </article> </li>  <li> <article class="definition function callable" id="FUNCTION CHARMANDER:SAVE-CURSOR-POSITION"> <header> <span class="visibility">EXTERNAL</span> <span class="type">FUNCTION</span> <h4 class="name"> <a href="#FUNCTION%20CHARMANDER%3ASAVE-CURSOR-POSITION">SAVE-CURSOR-POSITION</a> </h4> <ul class="qualifiers"></ul> <ul class="arguments"></ul>  </header> <div class="docstring"><pre>Save current cursor position.</pre></div> </article> </li>  <li> <article class="definition function callable" id="FUNCTION CHARMANDER:SCROLL-DOWN"> <header> <span class="visibility">EXTERNAL</span> <span class="type">FUNCTION</span> <h4 class="name"> <a href="#FUNCTION%20CHARMANDER%3ASCROLL-DOWN">SCROLL-DOWN</a> </h4> <ul class="qualifiers"></ul> <ul class="arguments">  <li class="argument lambda-list-keyword">&amp;OPTIONAL</li>    <li class="argument">N</li>  </ul>  </header> <div class="docstring"><pre>Scroll whole page down by N lines (default 1)
+   New lines are added at the top.</pre></div> </article> </li>  <li> <article class="definition function callable" id="FUNCTION CHARMANDER:SCROLL-UP"> <header> <span class="visibility">EXTERNAL</span> <span class="type">FUNCTION</span> <h4 class="name"> <a href="#FUNCTION%20CHARMANDER%3ASCROLL-UP">SCROLL-UP</a> </h4> <ul class="qualifiers"></ul> <ul class="arguments">  <li class="argument lambda-list-keyword">&amp;OPTIONAL</li>    <li class="argument">N</li>  </ul>  </header> <div class="docstring"><pre>Scroll whole page up by N lines (default 1)
+   New lines are added at the bottom.</pre></div> </article> </li>  <li> <article class="definition function callable" id="FUNCTION CHARMANDER:SGR"> <header> <span class="visibility">EXTERNAL</span> <span class="type">FUNCTION</span> <h4 class="name"> <a href="#FUNCTION%20CHARMANDER%3ASGR">SGR</a> </h4> <ul class="qualifiers"></ul> <ul class="arguments">  <li class="argument">N</li>  </ul>  </header> <div class="docstring"><pre>Select Graphic Rendition. Sets display attributes.
+
+  0       : Reset or normal. All attributes are turned off.
+  1       : Bold/increased intensity.
+  2       : Faint/decreased intensity/dim.
+  3       : Italic. Not common, sometimes inverse or blink.
+  4       : Underline.
+  5       : Slow blink (&lt;150 times per minute).
+  6       : Rapid blink (&gt;150 times per minute). Not widely supported.
+  7       : Reverse video/invert. Swap bg and fg.
+  8       : Conceal/hide. Not widely supported.
+  9       : Crossed-out/strike.
+  10      : Primary/default font.
+  11-19   : Select alternative font N-10.
+  20      : Fraktur (Gothic). Not widely supported.
+  21      : Double underline OR 'not' bold.
+  22      : Normal intensity.
+  23      : Neither italic nor blackletter.
+  24      : Not underlined.
+  25      : Not blinking. Turn blinking off.
+  26      : Proportional spacing. Not known to be used, see ITU T.61 and T.416.
+  27      : Not reversed.
+  28      : Reveal/not concealed.
+  29      : Not crossed out.
+  30-37   : Set foreground color. See tables below.
+  38      : Set foreground color. Followed by 5;n or 2;r;g;b.
+  39      : Default foreground color.
+  40-47   : Set background color.
+  48      : Set background color. Followed by 5;n or 2;r;g;b.
+  49      : Default background color.
+  50      : Disable proportional spacing. T.61 and T.416.
+  51      : Framed. ???
+  52      : Circled. ???
+  53      : Overlined.
+  54      : Neither framed for encircled.
+  55      : Not overlined.
+  56-57   : UNDEFINED
+  58      : Set underline color. Not standard, but implemented in Kitty, VTE, 
+            mintty, and iTerm2. Followed by 5;n or 2;r;g;b.
+  59      : Default underline color. Not standard, but implemented in Kitty, VTE, 
+            mintty, and iTerm2.
+  60-65   : Ideogram control sequences, rarely used.
+  66-72   : UNDEFINED
+  73-75   : mintty only, superscripts and subscripts.
+  90-97   : Set bright foreground color. Followed by 5;n or 2;r;g;b.
+  100-107 : Set bright background color. Followed by 5;n or 2;r;g;b.
+
+
+  COLORS
+
+  3/4 BIT
+  Colors can be specified with ESC[&lt;fg&gt;;&lt;bg&gt;m. This is the standard to use to
+  keep your application consistent with the coloring of the host terminal.
+  
+  FG  BG  NAME
+  -------------------------
+  30  40  Black
+  31  41  Red
+  32  42  Green
+  33  43  Yellow
+  34  44  Blue
+  35  45  Magenta
+  36  46  Cyan
+  37  47  White
+  90  100 Bright black/gray
+  91  101 Bright red
+  92  102 Bright green
+  93  103 Bright yellow
+  94  104 Bright blue
+  95  105 Bright magenta
+  96  106 Bright cyan
+  97  107 Bright white
+
+  8 BIT
+  Not a very useful standard, as it is more limited than 24-bit and far less
+  intuitive than 3/4-bit. Colors can be specified with ESC[38;5nm for foreground
+  and ESC[48:5nm for background, where n is a number from the 256-color lookup 
+  table. See online resources for reference tables.
+
+  24 BIT
+  Colors can be specified with ESC[38;2;r;g;bm for foreground and ESC[48;2;r;g;bm
+  for background, where r, g, and b represent a 24-bit base-10 color triplet.</pre></div> </article> </li>  <li> <article class="definition function callable" id="FUNCTION CHARMANDER:TAB"> <header> <span class="visibility">EXTERNAL</span> <span class="type">FUNCTION</span> <h4 class="name"> <a href="#FUNCTION%20CHARMANDER%3ATAB">TAB</a> </h4> <ul class="qualifiers"></ul> <ul class="arguments"></ul>  </header> <div class="docstring"><pre>Position to the next character tab stop</pre></div> </article> </li> </ul> </article> </li> </ul> </section>  </article> <script>window.addEventListener("DOMContentLoaded", function(){
+    var unmarkElement = function(el){
+        if(el.tagName === "mark" || el.tagName === "MARK"){
+            [].forEach.call(el.childNodes, function(child){
+                el.parentNode.insertBefore(child, el);
+            });
+            el.parentNode.removeChild(el);
+        }else if(el.parentNode.tagName === "mark"){
+            return unmarkElement(el.parentNode);
+        }
+        return null;
+    }
+
+    var unmarkAll = function(root){
+        root = root || document;
+        [].forEach.call(root.querySelectorAll("mark"), unmarkElement);
+    }
+    
+    var markElement = function(el){
+        if(el.parentNode.tagName === "mark" || el.parentNode.tagName === "MARK"){
+            return el.parentNode;
+        } else {
+            unmarkAll();
+            var marked = document.createElement("mark");
+            el.parentNode.insertBefore(marked, el);
+            marked.appendChild(el);
+            return marked;
+        }
+    }
+
+    var markFragmented = function(){
+        if(window.location.hash){
+            var el = document.getElementById(decodeURIComponent(window.location.hash.substr(1)));
+            if(el) markElement(el);
+        }
+    }
+
+    var registerXrefLink = function(link){
+        var el = document.getElementById(decodeURIComponent(link.getAttribute("href").substr(1)));
+        if(el){
+            link.addEventListener("click", function(){
+                markElement(el);
+            });
+        }
+    }
+
+    var registerXrefLinks = function(root){
+        root = root || document;
+        [].forEach.call(root.querySelectorAll("a.xref"), registerXrefLink);
+    }
+
+    markFragmented();
+    registerXrefLinks();
+}); </script> </body> </html> 
