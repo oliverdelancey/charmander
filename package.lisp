@@ -9,6 +9,7 @@
 
 
 (defpackage #:charmander
+  (:nicknames #:charm)
   (:use :cl)
   (:export))
 
