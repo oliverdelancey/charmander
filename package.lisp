@@ -9,7 +9,6 @@
 
 
 (defpackage #:charmander
-  "Base package"
   (:use :cl)
   (:export))
 
