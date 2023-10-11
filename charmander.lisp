@@ -104,11 +104,13 @@
 
 (defun-ex enable-alt-screen-buffer ()
   "Enable alternative screen buffer."
-  (uiop:run-program "tput smcup" :output t))
+  (handler-case (uiop:run-program "tput smcup" :output t)
+    (error () (format t #?"\e[?1049h"))))
 
 (defun-ex disable-alt-screen-buffer ()
   "Disable alternative screen buffer."
-  (uiop:run-program "tput rmcup" :output t))
+  (handler-case (uiop:run-program "tput rmcup" :output t)
+    (error () (format t #?"\e[?1049l"))))
 
 
 (defun-ex sgr (n)
