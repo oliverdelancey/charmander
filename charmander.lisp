@@ -102,6 +102,14 @@
   "Restore saved cursor position."
   (format t #?"\e[u"))
 
+(defun-ex show-cursor ()
+  "Show the cursor"
+  (format t #?"\e[?25h"))
+
+(defun-ex hide-cursor ()
+  "Hide the cursor"
+  (format t #?"\e[?25l"))
+
 (defun-ex enable-alt-screen-buffer ()
   "Enable alternative screen buffer."
   (handler-case (uiop:run-program "tput smcup" :output t)
