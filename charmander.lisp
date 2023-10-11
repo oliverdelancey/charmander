@@ -61,7 +61,7 @@
 (defun-ex cursor-position (&optional (n 1) (m 1))
   "Move the cursor to row N column M (default 1, 1)
    The values are 1-based, 1,1 being top left corner."
-  (format t #?"\e[~a;~aM" n m))
+  (format t #?"\e[~a;~aH" n m))
 
 (defun-ex erase-display (&optional (n 0))
   "Clears part of the screen.
